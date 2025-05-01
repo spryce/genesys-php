@@ -1,0 +1,2 @@
+AuthName "Restricted Area"
+AuthUserFile "/home/gen11100/.htpasswds/public_html/images/passwd"

@@ -1,0 +1,255 @@
+body {
+	background: url('../images/guitar_bg2.jpg') #000 no-repeat center -100px;
+	font-family: Arial, Verdana, Helvetica, Sans-serif;
+	font-size: 9pt;
+	color: #8b8b8b;
+}
+img {
+	border: 0px;
+}
+div#container {
+	width: 968px;
+	margin: 0 auto;
+	position: relative;
+}
+div#wrapper {
+	width: 968px;
+	float: left;
+}
+img.logo-img {
+	display: block;
+	float: right;
+}
+ul.nav {
+	clear: right;
+	float: left;
+	width: 968px;
+	background: #303030;
+	position: relative;
+	color: #FFF;
+	font-size: 10pt;
+	margin-bottom: 40px;
+
+}
+ul.sub {
+	margin-bottom: 20px;
+}
+ul.nav li {
+	/*INSERTED FLOAT LEFT*/
+	float: left;
+	display: inline-block;
+}
+ul.nav li a:hover {
+	background-color: #f5b83e;
+}
+ul.nav li a{
+	background: url('../images/pick.png') no-repeat 5px center;
+	display: block;
+	line-height: 39px;
+	padding: 0 6px 0 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+ul.nav li ul.subnav li a {
+	background: none;
+	padding: 0 6px;
+}
+ul.nav li ul.subnav {
+	position: absolute;
+	left: 0;
+	width: 968px;
+	background: url('../images/trans_bg_black.png');
+}
+ul.nav li ul.subnav li {
+	display: none;
+}
+ul.nav li ul.subnav li a {
+	display: block;
+	line-height: 40px;
+}
+ul.nav li:hover ul.subnav li {
+	display: inline-block;
+}
+ul.nav li:hover ul.subnav li:hover {
+	background: #f5b83e;
+}
+div#main-content {
+	clear: left;
+	float: left;
+	width: 926px;
+	border: 1px #e8e8e8 solid;
+	background: #FFF;
+	padding: 20px;
+}
+div#main-content div.sidebar {
+	width: 207px;
+	float: left;
+	margin-right: 20px;
+}
+//********
+Inserted sidebar 2.
+**********/
+div#main-content div.sidebar2 {
+	width: 207px;
+	/*float: left;*/
+	margin-right: 20px;
+}
+div.sidebar h2.cart {
+	margin-bottom: 10px;
+}
+div.sidebar p.view {
+	margin-top: 10px;
+}
+div.sidebar h2 a {
+	display: block;
+	background: #f5b83e;
+	line-height: 2em;
+	margin: 1px 0;
+	color: #000;
+	text-decoration: none;
+	padding: 0 10px 0;
+}
+div.sidebar ul {
+	color: #000;
+}
+div.sidebar ul li a {
+	display: block;
+	line-height: 26px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}
+div.sidebar ul li a {
+	padding-left: 20px;
+}
+div.sidebar ul.sub li a {
+	background: url('../images/pick.png') no-repeat 5px center;
+}
+div.sidebar ul.sub li.odd a {
+	background-color: #faf9ec;
+}
+div.sidebar ul.sub li a:hover {
+	background-color: #f5b83e;
+	color: #FFF;
+}
+div#main-content div.main-body {
+	width: 699px;
+	float: left;
+}
+div#main-content div.main-body table {
+	border: #8b8b8b;
+	margin-bottom: 20px;
+}
+body.cart div#main-content div.main-body p.view a.order {
+	margin-left: 10px;
+}
+div.main-body p {
+	line-height: 2em;
+	margin: 0 0 1em;
+}
+div.main-body h2 {
+	color: #000;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+div.main-body p.message-box {
+	font-weight: bold;
+	color: #f5b83e;
+	display: block;
+	line-height: 4em;
+	background: #faf9ec;
+	padding: 0 20px;
+	border: 1px solid #EFEFEF;
+}
+div.footer {
+	font-size: 8pt;
+	clear: both;
+	float: left;
+	width: 968px;
+	background: #f3f3f3;
+	margin-top: 10px;
+}
+div.footer p {
+	line-height: 63px;
+	margin: 0 20px;
+	float: left;
+}
+div.footer a {
+	line-height: 63px;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #8b8b8b;
+	font-weight: bold;
+	float: right;
+}
+/*Crawler ********************/
+div.crawler {
+	clear: left;
+	float: left;
+	width: 968px;
+	background: #f3f3f3;
+	margin-top: 0px;
+}
+div.crawler p {
+	line-height: 63px;
+	margin: 0 20px;
+}
+/*contact form******************/
+
+
+/*****page grid****************/
+
+div.page-grid {
+	/*float: left;*/
+	line-height:150%;
+	width: 645px;
+	padding: 15px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	background: #faf9ec;
+	border: 1px solid #EFEFEF;
+}
+div.page-grid h3 {
+
+}
+div.page-grid a{
+	line-height:150%;
+	text-decoration: none;
+	color: #8b8b8b;
+	font-weight: bold;
+}
+div.page-grid form {
+	/*float: right;*/
+	font-family: Arial, Verdana, Helvetica, Sans-serif;
+	font-size: 9pt;
+	color: #8b8b8b;
+}
+/*******page*******/
+div.page{
+
+	float: left;
+	line-height:150%;
+	width: 300px;
+	padding: 10px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+}
+#prodImage {
+	float: right;
+	width: auto;
+}
+
+#test {
+	clear: both;
+}
+#gallery {
+	clear: left;
+	float: right;
+	
+}
+#gallery img{
+	border: 1px solid #EFEFEF;
+}
+
+.galleryLink{color: #8b8b8b;text-decoration:none;}
+.galleryLink:hover{color:rgb(245, 184, 62)}

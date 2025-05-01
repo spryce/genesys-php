@@ -1,0 +1,63 @@
+body.prod-grid div.main-body div.prod-grid {
+	float: left;
+	width: 203px;
+	padding: 10px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	background: #faf9ec;
+	border: 1px solid #EFEFEF;
+}
+body.prod-grid div.main-body div.border {
+	float: right;
+	margin-right: 0px;
+	margin-left: 12px;
+}
+body.prod-grid div.main-body div.first {
+	clear: left;
+}
+body.prod-grid div.main-body div.last {
+	margin-right: 0px;
+}
+body.prod-grid div.main-body div.prod-grid p {
+	line-height: 1em;
+}
+body.prod-grid div#main-content p a {
+	color: #8b8b8b;
+}
+body.prod-grid div.main-body div.prod-grid p.hilight {
+	text-decoration: none;
+	color: #f5b83e;
+	float: right;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+body.prod-grid div.main-body div.prod-grid p.prod-desc {
+	height: 100px;
+}
+body.prod-grid div#main-content p.view {
+	display: block;
+	clear: right;
+	border-top: 1px solid #999;
+}
+body.prod-grid div#main-content p.view a {
+	padding-left: 20px;
+	background: url('../images/pick.png') no-repeat 5px center;
+	text-decoration: none;
+	line-height: 2em;
+	display: inline-block;	
+}
+body.prod-grid div#main-content p.view a.order {
+	float: right;
+}
+body.prod-grid div.main-body div.prod-grid h2.prod-title {
+	font-size: 10pt;
+	margin-bottom: 0.6em;
+}
+body.prod-grid div.main-body div.prod-grid h2.prod-title a {
+	text-decoration: none;
+	color: #000;
+}
+body.prod-grid div.prod-grid img {
+	width: 203px;
+	margin-bottom: 10px;
+}
